@@ -27,7 +27,7 @@ const useStyles = makeStyles((theme) => ({
 
 function App() {
   const classes = useStyles();
-
+  document.title = "Brasil Saude";
   return (
     <div>
       <AppBar position="static">
